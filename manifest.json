@@ -1,0 +1,89 @@
+{
+  "name": "sorasola - 取引士・調査士受験生応援サイト",
+  "short_name": "sorasola",
+  "description": "宅地建物取引士・土地家屋調査士の受験生を応援するサイト",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0066cc",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "ja",
+  "dir": "ltr",
+  "icons": [
+    {
+      "src": "./img/ChatGPT Image 2025年4月19日 22_37_50.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "./img/ChatGPT Image 2025年4月19日 22_37_50.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "./img/ChatGPT Image 2025年4月19日 22_37_50.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./img/ChatGPT Image 2025年4月19日 22_37_50.png",
+      "sizes": "96x96",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "categories": ["education", "productivity", "reference"],
+  "related_applications": [],
+  "prefer_related_applications": false,
+  "shortcuts": [
+    {
+      "name": "問い合わせ",
+      "short_name": "問合せ",
+      "description": "お問い合わせフォーム",
+      "url": "https://forms.gle/PUZ7wV2tzbKFY2fbA",
+      "icons": [
+        {
+          "src": "./img/ChatGPT Image 2025年4月19日 22_37_50.png",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "トップページ",
+      "short_name": "TOP",
+      "description": "sorasolaトップページ",
+      "url": "/",
+      "icons": [
+        {
+          "src": "./img/ChatGPT Image 2025年4月19日 22_37_50.png",
+          "sizes": "96x96"
+        }
+      ]
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "./img/header.jpg",
+      "sizes": "1280x720",
+      "type": "image/jpeg",
+      "platform": "wide",
+      "label": "sorasola メインページ"
+    }
+  ],
+  "launch_handler": {
+    "client_mode": "navigate-existing"
+  },
+  "edge_side_panel": {
+    "preferred_width": 400
+  },
+  "protocol_handlers": [
+    {
+      "protocol": "web+sorasola",
+      "url": "/?handler=%s"
+    }
+  ]
+}
